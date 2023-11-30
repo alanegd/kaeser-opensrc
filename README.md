@@ -1,0 +1,7 @@
+- Spring Boot DevTools
+- Lombok
+- Spring Modulith
+- Spring Web
+- Spring Data JPA
+- MySQL Driver
+- Validation
