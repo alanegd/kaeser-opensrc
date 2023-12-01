@@ -13,14 +13,14 @@ public class OpenApiConfiguration {
     public OpenAPI ISAOpenApi() {
         return new OpenAPI()
                 .info(new Info()
-                        .title("ISA")
-                        .description("ISA Connect REST API documentation.")
+                        .title("Kaeser")
+                        .description("Kaeser REST API documentation.")
                         .version("v1.0.0")
                         .contact(new io.swagger.v3.oas.models.info.Contact().name("EGD"))
                         .license(new License().name("Apache 2.0")
                                 .url("https://springdoc.org")))
                 .externalDocs(new ExternalDocumentation()
-                        .description("ISA Documentation")
-                        .url("https://www.isaitaly.com/"));
+                        .description("Kaeser Documentation")
+                        .url("https://www.kaeser.com/int-en"));
     }
 }

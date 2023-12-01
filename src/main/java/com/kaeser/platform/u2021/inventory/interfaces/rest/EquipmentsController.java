@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping(value="/api/v1/equipments", produces = MediaType.APPLICATION_JSON_VALUE)
-@Tag(name = "Equipments", description = "Product Management Endpoints")
+@Tag(name = "Equipments", description = "Equipment Management Endpoints")
 public class EquipmentsController {
     private final EquipmentQueryService equipmentQueryService;
     private final EquipmentCommandService equipmentCommandService;
@@ -25,7 +25,6 @@ public class EquipmentsController {
         this.equipmentQueryService = equipmentQueryService;
         this.equipmentCommandService = equipmentCommandService;
     }
-
 
     @PostMapping
     public ResponseEntity<EquipmentResource> createEquipment(@RequestBody CreateEquipmentResource resource){
